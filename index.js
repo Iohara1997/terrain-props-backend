@@ -1,6 +1,8 @@
 import express from 'express';
 import router from './routes/map.routes.js';
 import cors from 'cors';
+import database from './db.js';
+import location_data from './locationData.js';
 
 const app = express();
 app.use(express.json());
